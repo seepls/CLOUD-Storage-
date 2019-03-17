@@ -1,0 +1,25 @@
+-Cloud storage is built for app developers who need to store and serve user -generated content :here photos and videos .
+-cloud storage for firebase: object storage service built for google scale
+-the firebase sdk adds security for file uploads and downloads
+
+key features :
+1.Firebase SDKs for cloud storage perform uploads and downloads regardless of network quality .
+they restart where they stopped hence robust .
+
+2.firebase SDKs for cloud storage integrate with firebase authentication to provide simple and intutive authentication for developers .
+
+
+WORKING ::
+- use Firebase  SDKs for cloud storage to upload and download files directly from clients. can restart from where left 
+off in case of poor network signal .
+saves user time and bandwidth .
+
+- cloud storage stores files in a google cloud storage ,accessible from firebase and google cloud .
+
+- cloud storage scales automatically
+
+
+IMPLEMENTATION PATH ::
+-integrate the firebase SDKs for cloud storage : include clients like Gradle , CocoaPods , script include .
+- create a reference : reference the path to a file, to upload , download or delete .
+
